@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sensor_sample_1",
+    "name": "Sample Sensor",
+    "resources": {
+      "kDMIPS": 5,
+      "tops": 0,
+      "isp": 500,
+      "dewarp": 500,
+      "gpu": 0,
+      "dramBw": 1
+    }
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "name": "ADAS ECU SoC Selector",
+  "description": "An application for System Architects to estimate resource requirements for ADAS features and select the appropriate System-on-Chip (SoC). Select desired features, and the app will calculate resource needs and suggest a compatible SoC.",
+  "requestFramePermissions": []
+}

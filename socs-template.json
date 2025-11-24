@@ -1,0 +1,16 @@
+[
+  {
+    "id": "soc_sample_1",
+    "name": "Sample SoC 100",
+    "vendor": "Sample Vendor",
+    "tier": "Entry",
+    "resources": {
+      "kDMIPS": 50,
+      "tops": 5,
+      "isp": 1500,
+      "dewarp": 500,
+      "gpu": 100,
+      "dramBw": 8
+    }
+  }
+]

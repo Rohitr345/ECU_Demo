@@ -1,0 +1,35 @@
+[
+  {
+    "id": "func_sample_1",
+    "name": "Sample Core Function",
+    "resources": {
+      "kDMIPS": 20,
+      "tops": 4,
+      "isp": 0,
+      "dewarp": 0,
+      "gpu": 0,
+      "dramBw": 1.5
+    }
+  },
+  {
+    "id": "feat_sample_1",
+    "name": "Sample Selectable Feature",
+    "isFeature": true,
+    "description": "This is a sample feature that depends on other components.",
+    "category": "Driving",
+    "resources": {
+      "kDMIPS": 0,
+      "tops": 0,
+      "isp": 0,
+      "dewarp": 0,
+      "gpu": 0,
+      "dramBw": 0
+    },
+    "mandatoryFunctionIds": [
+      "func_sample_1"
+    ],
+    "mandatorySensorIds": [
+      "sensor_sample_1"
+    ]
+  }
+]

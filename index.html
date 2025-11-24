@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADAS ECU SoC Selector</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#00A9FF',
+              'brand-secondary': '#89CFF3',
+              'base-100': '#0F172A',
+              'base-200': '#1E293B',
+              'base-300': '#334155',
+              'content-100': '#CBD5E1',
+              'content-200': '#94A3B8',
+            },
+          }
+        }
+      }
+    </script>
+    <!-- Add SheetJS library for Excel processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <!-- Add html2canvas for image generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
+    <!-- React and ReactDOM are loaded via the importmap and module script below -->
+
+    <!-- Add Babel Standalone for in-browser transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-100 text-content-100">
+    <div id="root"></div>
+    <!-- The type must be "text/babel" for Babel to find and transpile it -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
+  </body>
+</html>
